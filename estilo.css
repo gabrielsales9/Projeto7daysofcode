@@ -1,0 +1,297 @@
+:root{
+    --cor-vermelha: #8E2424;
+}
+@font-face {
+    font-family: inter;
+    src: url("inter/Inter-V.ttf");
+}
+  body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter';
+    background-color: lightgray;
+}
+  .flexbox-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+    background-color:#FFFFFF;
+    height: 44px;
+    width: 1280px;
+    left: 80px;
+    top: 18px;
+    border-radius: 0px;
+    padding: 0px 32px 0px 32px;
+    margin-top: 10px;
+}
+.flexbox-item ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    list-style-type: none;
+}
+.flexbox-item li a{
+    margin-left: 30px;
+    text-decoration: none;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+}
+#logo a{
+    font-size: 18px;
+    color: #3A404E;
+    padding:0px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+#lista ul li a{
+    list-style: Text Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#667085;
+    width: 72px;
+    height: 24px;
+}
+#principal{
+    width: 1440px;
+    height: 100%;
+    background-color: white;
+}
+#btnEntrar{
+    color:#667085;
+    list-style: Text Medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background: none;
+    padding-right: 15px;
+}
+.botao{
+    color: white;
+    background-color: var(--cor-vermelha);   
+    width: 111px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    padding: 12px 18px 12px 18px;
+    border: none;
+}
+.primeiro-conteudo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#txtone{
+    list-style: style bold;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    height: 24px;
+    width: 78px;
+    left: 681px;
+    top: 96px;
+    text-align: left;
+    margin-left: 340px;
+    margin-top: 120px;
+    color: var(--cor-vermelha);
+}
+#txttwo{
+    color:#101828;
+    height: 60px;
+    width: 603px;
+    list-style-type: style bold;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-left: 90px;
+    margin-top: 35px;
+}
+#txtthree{
+    height: 60px;
+    width: 791px;
+    top: 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color:#667085;
+    margin-top: 10px;
+}
+.metricas-container{
+    flex-direction: row;
+    display: flex;
+    margin-top: 50px;
+    gap:64px;
+    margin-left: 112px;
+}
+.metricas h2{
+    color:var(--cor-vermelha);
+    font-size: 60px;
+    height: 72px;
+    width: 280px;
+}
+.metricas h4{
+    margin-top: -38px;
+    font-size: 18px;
+    height: 28px;
+    width: 280px;
+}
+.metricas p{
+    color:#667085;
+    font-size: 16px;
+    height: 72px;
+    width: 250px;
+    margin-top: -10px;
+}
+.vagas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#vagas-one{
+    color: var(--cor-vermelha);
+    border-radius: 12px;
+    background: rgba(142, 36, 36, 0.05);
+    width: 130px;
+    height: 25px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 180px;
+}   
+.vagas h2{
+    font-size: 36px;
+    text-align: center;
+    margin-top: 10px;
+}
+#vagas-two{
+    color: #667085;
+    font-size: 20px;
+    margin-top: -2px;
+    text-align: center;
+}
+.vagas img{
+    margin-top:40px;
+}
+.oportunidade{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+}
+#designer{
+    margin-left: 336px;
+    color: #101828;
+    font-size: 20px;
+    margin-top: 64px;
+}
+.titulo-oportunidade{
+    margin-left: 24px;
+    color: #101828;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.informacoes{
+    display: flex;
+    margin-left: 24px;
+    color: #667085;
+    font-size: 18px;
+    margin-top: 32px;
+    column-gap: 24px;
+}
+.borda{
+    display:flex;
+    box-sizing: border-box;
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    margin-left: 336px;
+    margin-right: 336px;
+    margin-top: 32px;
+    padding: 10px;
+    height: 136px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 22px;
+}
+.depoimentos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    margin-top: 96px;
+    height: 404px;
+    margin-left: 112px;
+    margin-right: 112px;
+}
+#depoimento-one{
+    font-size: 16px;
+    color: var(--cor-vermelha);
+    font-weight: bold;
+    margin-top: 64px;
+}
+#depoimento-two{
+    font-size: 36px;
+    color: #101828;
+    font-weight: bold;
+    margin-top: 16px;
+}
+#nome-dev{
+    font-size: 16px;
+    color: #101828;
+    font-weight: bold;
+}
+#cargo{
+    font-size: 14px;
+    color: #667085;
+}
+.rodape-principal{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   background:#F9FAFB;
+   width: 1440px;
+   height: 430px;
+   margin-top: 96px;
+}
+.titulo-rodape{
+    color: #101828;
+    font-size: 36px;
+    margin-top: 96px;
+    margin-left: 336px;
+    margin-right: 336px;
+    letter-spacing: -0.02em;
+}
+.subtitulo-rodape{
+    font-size: 20px;
+    color:#667085;
+    margin-top: 20px;
+}
+input{
+    border: 2px solid#D0D5DD;
+    border-radius: 8px;
+    height: 36px;
+    width: 300px;
+    margin-right: 10px;
+}
+#text-footer{
+    margin-top: 32px;
+    color: #98A2B3;
+    font-size: 16px;
+}
