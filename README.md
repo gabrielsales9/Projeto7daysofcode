@@ -1,7 +1,6 @@
 # Projeto7daysofcode
 
-![preview](./.github/preview.png)
-
+![preview](./.github/preview)
 
 > Trilha Explore
 
